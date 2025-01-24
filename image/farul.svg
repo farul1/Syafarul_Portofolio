@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="217px" height="237px" viewBox="0 0 217 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 59 (86127) - https://sketch.com -->
     <title>mf-avatar</title>
     <desc>Created with Sketch.</desc>
     <defs>
@@ -18,8 +17,8 @@
                 <mask id="mask-2" fill="white">
                     <use xlink:href="#path-1"></use>
                 </mask>
-                <use id="Circle-Background" fill="#972dc2" xlink:href="#path-1"></use>
-                <g id="🖍-Circle-Color" mask="url(#mask-2)" fill="#8a4ca8">
+                <use id="Circle-Background" fill="#000" xlink:href="#path-1"></use>
+                <g id="🖍-Circle-Color" mask="url(#mask-2)" fill="#000">
                     <rect id="🖍Color" x="0" y="0" width="216.445361" height="216"></rect>
                 </g>
             </g>
@@ -32,8 +31,8 @@
                     <mask id="mask-6" fill="white">
                         <use xlink:href="#path-5"></use>
                     </mask>
-                    <use fill="#D0C6AC" xlink:href="#path-5"></use>
-                    <g id="Skin/👶🏻-05-Pale" mask="url(#mask-6)" fill="#FFDBB4">
+                    <use fill="#D69A6C" xlink:href="#path-5"></use>
+                    <g id="Skin/👶🏻-05-Pale" mask="url(#mask-6)" fill="#D69A6C">
                         <g transform="translate(-28.800000, 0.000000)" id="Color">
                             <rect x="0" y="0" width="238.383871" height="220.354839"></rect>
                         </g>
@@ -45,7 +44,7 @@
                         <use xlink:href="#path-7"></use>
                     </mask>
                     <use id="Hoodie" fill="#B7C1DB" fill-rule="evenodd" xlink:href="#path-7"></use>
-                    <g id="Color/Palette/Slate" mask="url(#mask-8)" fill="#293347" fill-rule="evenodd">
+                    <g id="Color/Palette/Slate" mask="url(#mask-8)" fill="#8c45aa" fill-rule="evenodd">
                         <rect id="🖍Color" x="0" y="0" width="238.490722" height="99"></rect>
                     </g>
                     <path d="M91.7997922,55.5650565 L91.8,99 L85.5,99 L85.4989717,52.3346251 C87.4825877,53.5136414 89.5915786,54.5944735 91.7997922,55.5650565 Z M152.101479,52.334357 L152.1,88.65 C152.1,90.389697 150.689697,91.8 148.95,91.8 C147.210303,91.8 145.8,90.389697 145.8,88.65 L145.80121,55.5646162 C148.009227,54.594073 150.118032,53.5132992 152.101479,52.334357 Z" id="Straps" fill="#F4F4F4" fill-rule="evenodd" mask="url(#mask-8)"></path>
@@ -89,7 +88,7 @@
                             </mask>
                             <use id="Short-Hair" stroke="none" fill="#1F3140" fill-rule="evenodd" xlink:href="#path-13"></use>
                             <g id="Color/Hair/Brown-Dark" stroke="none" fill="none" mask="url(#mask-14)" fill-rule="evenodd">
-                                <g transform="translate(-43.100000, -15.000000)" fill="#4A312C" id="Color">
+                                <g transform="translate(-43.100000, -15.000000)" fill="#553d18" id="Color">
                                     <rect x="0" y="0" width="239.106977" height="252.406452"></rect>
                                 </g>
                             </g>
