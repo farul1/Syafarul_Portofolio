@@ -4,296 +4,730 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syafarul Priwantoro</title>
+    <title>Syafarul Priwantoro - Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" sizes="32x32" href="image/farul.svg">
     <script src="js/script.js" defer></script>
+    
 </head>
 <body>
-
-<div id="menu-btn" class="fas fa-bars"></div>
-
-<header class="header">
-
-    <a href="https://www.instagram.com/syafarul__" class="logo"> <i class="fa-solid fa-user"></i> FARUL </a>
-
+    <!-- Navigation -->
     <nav class="navbar">
-        <a href="#home"> <i class="fas fa-home"></i> Home </a>
-        <a href="#about"> <i class="fas fa-info-circle"></i> About </a>
-        <a href="#category"> <i class="fas fa-th-large"></i> Category Me</a>
-        <a href="#portfolio"> <i class="fas fa-desktop"></i> Portfolio Projects </a>
-        <a href="#certificate"> <i class="fas fa-certificate"></i> Sertifikat </a> 
-        <a href="#contact"> <i class="fas fa-envelope"></i> Contact </a>
-    </nav>    
+        <div class="nav-container">
+            <a href="#home" class="logo">FARUL</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
-    <div class="share">
-        <a href="https://www.instagram.com/syafarul__/" class="fab fa-instagram"></a>
-        <a href="https://wa.link/qpd2ab" class="fab fa-whatsapp"></a>
-        <a href="https://www.linkedin.com/in/syafarul-priwantoro" class="fab fa-linkedin"></a>
-        <a href="https://github.com/farul1" class="fab fa-github"></a>
-    </div>
-    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    Available for Opportunities
+                </div>
+                <h1 class="hero-title">Syafarul Priwantoro</h1>
+                <h2 class="hero-subtitle">Backend Developer & DevOps Engineer</h2>
+                <p class="hero-description">
+                    Passionate about creating efficient, scalable backend solutions with modern DevOps practices. 
+                    Specialized in PHP, Laravel, and cloud technologies to build robust applications that drive business success.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="image/SyafarulPriwantoro-Magenta.pdf" download class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/farul1" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/syafarul-priwantoro" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/syafarul__/" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.link/qpd2ab" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-container">
+                    <img src="image/farul.jpg" alt="Syafarul Priwantoro" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <p class="credit">created by <span><a href="https://www.instagram.com/syafarul__/">Syafarul Priwantoro</a></span> | all rights reserved 2023</p>
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-user"></i>
+                    About Me
+                </div>
+                <h2 class="section-title">Get to Know Me</h2>
+                <p class="section-description">
+                    A passionate developer committed to creating innovative solutions and continuous learning
+                </p>
+            </div>
+            <div class="about-content fade-in">
+                <div class="about-text">
+                    <h3>Hi, I'm Syafarul Priwantoro</h3>
+                    <p class="student-id">Student ID: 1204220018</p>
+                    <p>
+                        As a 6th-semester student at Telkom University Surabaya, I'm passionate about backend development 
+                        and DevOps technologies. My vision is to continuously grow in the tech industry, focusing on 
+                        developing efficient and reliable applications that solve real-world problems.
+                    </p>
+                    <p>
+                        I specialize in PHP and Laravel for backend development, while also implementing DevOps practices 
+                        to create scalable and optimized solutions. My experience includes building cloud-based applications, 
+                        implementing CI/CD pipelines, and working with containerization technologies.
+                    </p>
+                    <div class="skills-container">
+                        <h4 class="skills-title">Technical Expertise</h4>
+                        <div class="skills-grid">
+                            <div class="skill-tag">PHP</div>
+                            <div class="skill-tag">Laravel</div>
+                            <div class="skill-tag">JavaScript</div>
+                            <div class="skill-tag">HTML/CSS</div>
+                            <div class="skill-tag">DevOps</div>
+                            <div class="skill-tag">Docker</div>
+                            <div class="skill-tag">Jenkins</div>
+                            <div class="skill-tag">Git</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="image/kerja1.jpg" alt="Syafarul Priwantoro Working">
+                </div>
+            </div>
+        </div>
+    </section>
 
-</header>
+    <!-- Interests Section -->
+    <section id="interests" class="section interests">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-heart"></i>
+                    My Interests
+                </div>
+                <h2 class="section-title">What Drives Me</h2>
+                <p class="section-description">
+                    Exploring my passions that fuel creativity and inspire innovation
+                </p>
+            </div>
+            <div class="interests-grid fade-in">
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="interest-title">Programming</h3>
+                    <p class="interest-description">
+                        I've mastered various programming languages including PHP, JavaScript, HTML, and CSS. 
+                        As a backend developer, I focus on PHP and Laravel to create efficient and reliable applications. 
+                        I'm continuously expanding my programming skills and excited to explore deeper into coding, 
+                        including DevOps technologies and cloud computing implementations.
+                    </p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 class="interest-title">Music</h3>
+                    <p class="interest-description">
+                        Beyond programming, I have a deep appreciation for music. I enjoy various genres from pop to rock, 
+                        which provide inspiration and creativity in my life. Music often serves as a way to refresh my mind, 
+                        and I'm interested in exploring how music can be integrated with technology to create innovative solutions.
+                    </p>
+                </div>
+                <div class="interest-card">
+                    <div class="interest-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="interest-title">Gaming</h3>
+                    <p class="interest-description">
+                        Gaming is one of my hobbies that challenges me to solve problems and test strategies. 
+                        I've also delved into bug hunting and learned to identify and exploit bugs in games. 
+                        Although I didn't continue this hobby professionally, it sparked my interest in programming, 
+                        particularly PHP with Laravel, backend development, and DevOps.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- header section ends -->
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-laptop-code"></i>
+                    My Projects
+                </div>
+                <h2 class="section-title">Featured Work</h2>
+                <p class="section-description">
+                    Showcasing my technical expertise through innovative solutions and real-world applications
+                </p>
+            </div>
+            <div class="projects-grid fade-in">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/kasir.gif" alt="Coffee VNT Management System">
+                        <div class="project-overlay">
+                            <a href="https://github.com/farul1/Kasir_CafeVNT" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Coffee VNT Management System</h3>
+                        <p class="project-description">
+                            Comprehensive web application for managing Coffee Shop VNT operations, including user management, 
+                            transaction processing, and menu administration with intuitive dashboard.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/farul1/Kasir_CafeVNT" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
 
-<!-- home section starts  -->
-<section class="home" id="home">
-  <div class="container">
-    <div class="content">
-      <!-- Header -->
-      <div class="header1">
-        <h1>Syafarul Priwantoro</h1>
-        <a href="#about" class="scroll-btn">
-          <i class="fas fa-arrow-down"></i>
-        </a>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/simonik.gif" alt="SIMONIK System">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">SIMONIK - Budget Management System</h3>
+                        <p class="project-description">
+                            Modern web application for transparent and efficient budget management for East Java Police, 
+                            featuring role hierarchy, real-time notifications, and integrated management dashboard.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Laravel 10</span>
+                            <span class="tech-tag">PHP 8.2</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Alpine.js</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/fastline.gif" alt="Fastline Ticket System">
+                        <div class="project-overlay">
+                            <a href="https://github.com/farul1/Fastline" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fastline - Ticket Booking Platform</h3>
+                        <p class="project-description">
+                            Comprehensive ticket booking website with features including user management, 
+                            transportation services, category management, and seamless ticket reservation system.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/farul1/Fastline" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/jenkins.gif" alt="DevOps Pipeline">
+                        <div class="project-overlay">
+                            <a href="https://github.com/farul1/Kasir_CafeVNT/blob/main/Jenkinsfile" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DevOps CI/CD Pipeline</h3>
+                        <p class="project-description">
+                            Advanced DevOps pipeline implementation for backend applications, optimizing deployment 
+                            processes and enabling continuous integration with automated testing and deployment.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Jenkins</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <a href="https://github.com/farul1/Kasir_CafeVNT/blob/main/Jenkinsfile" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/laporcepat.gif" alt="LaporCepat System">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">LaporCepat - Public Complaint System</h3>
+                        <p class="project-description">
+                            Modern web application bridging communication between citizens and government agencies 
+                            for reporting public issues with ease, speed, and transparency.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Laravel 10</span>
+                            <span class="tech-tag">PHP 8.2</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">GPS Integration</span>
+                        </div>
+                        <a href="#" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/wellnes.gif" alt="Wellness Shine">
+                        <div class="project-overlay">
+                            <a href="https://github.com/farul1/Wellnes_shine" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Wellness Shine</h3>
+                        <p class="project-description">
+                            Web-based platform for the cosmetics industry, featuring beauty tips sharing and product showcase 
+                            with modern responsive design and user-friendly interface.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <a href="https://github.com/farul1/Wellnes_shine" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/docker.gif" alt="Docker Implementation">
+                        <div class="project-overlay">
+                            <a href="https://github.com/farul1/Kasir_CafeVNT_Docker" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Coffee VNT - Docker Implementation</h3>
+                        <p class="project-description">
+                            Docker containerization implementation for Coffee VNT application, enabling easy deployment 
+                            and dependency management for the coffee shop management system.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Docker Compose</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Nginx</span>
+                        </div>
+                        <a href="https://github.com/farul1/Kasir_CafeVNT_Docker" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="image/instaapp.gif" alt="InstaApp">
+                        <div class="project-overlay">
+                            <a href="https://documenter.getpostman.com/view/43024881/2sB2j7cUJu" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">InstaApp - Social Media Platform</h3>
+                        <p class="project-description">
+                            Social media web application enabling users to share photos, interact through likes and comments, 
+                            and manage profiles with comprehensive authentication and REST API integration.
+                        </p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">REST API</span>
+                            <span class="tech-tag">Blade</span>
+                        </div>
+                        <a href="https://documenter.getpostman.com/view/43024881/2sB2j7cUJu" class="btn btn-primary">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section certificates">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-certificate"></i>
+                    Certifications
+                </div>
+                <h2 class="section-title">Professional Achievements</h2>
+                <p class="section-description">
+                    Continuous learning and skill development through industry-recognized certifications
+                </p>
+            </div>
+            <div class="certificates-grid fade-in">
+                <!-- Certificate 1 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="image/4.jpg" alt="Master Laravel 12 & PHP Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Master Laravel 12 & PHP: From Beginner to Advanced</h3>
+                        <p class="certificate-description">
+                            Comprehensive Laravel 12 & PHP course from beginner to advanced level. 
+                            Taught by Piotr Jura with over 62,000+ students.
+                        </p>
+                        <p class="certificate-detail">Duration: 30.5 hours | April 27, 2025</p>
+                        <a href="https://www.udemy.com/certificate/UC-5b5ad640-63d4-4c7f-849d-d56feecc0e7a/" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="image/6.png" alt="AWS DevOps Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">AWS Certified DevOps Engineer - Professional 2024</h3>
+                        <p class="certificate-description">
+                            Professional AWS DevOps Engineer certification focusing on advanced DevOps practices 
+                            in AWS cloud environment. Taught by Zeal Vora.
+                        </p>
+                        <p class="certificate-detail">Duration: 35.5 hours | April 22, 2025</p>
+                        <a href="https://ude.my/UC-370ea513-f22a-4be5-be01-dab0963f8032" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="image/7.png" alt="DevOps Advanced Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">DevOps Beginners to Advanced with Projects</h3>
+                        <p class="certificate-description">
+                            Comprehensive DevOps course from beginner to advanced with hands-on projects. 
+                            Practical approach taught by Imran Teli.
+                        </p>
+                        <p class="certificate-detail">Duration: 53.5 hours | April 14, 2025</p>
+                        <a href="https://ude.my/UC-2d1fea36-f7f7-49f0-862b-97f4084f2789" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="image/5.jpg" alt="Google Analytics Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Google Analytics Certification</h3>
+                        <p class="certificate-description">
+                            Comprehensive Google Analytics certification course focusing on analytics and 
+                            data-driven insights. Taught by Daragh Walsh.
+                        </p>
+                        <p class="certificate-detail">Duration: 2.5 hours | April 22, 2025</p>
+                        <a href="https://ude.my/UC-7b680baa-102b-4ff4-8925-ad0a2ec68a40" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="image/sertifikatphp.jpg" alt="Web Development PHP Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">Web Development dengan PHP</h3>
+                        <p class="certificate-description">
+                            Certificate for completing Web Development course using PHP Programming Language 
+                            with 12.5 hours of learning duration.
+                        </p>
+                        <p class="certificate-detail">Provider: Udemy - CodePolitan Online</p>
+                        <a href="https://www.udemy.com/certificate/UC-320243f3-5014-468f-a8ba-526cc1d23d65/" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 6 -->
+                <div class="certificate-card">
+                    <div class="certificate-image">
+                        <img src="image/sertifikatdevop.png" alt="DevOps Free Course Certificate">
+                    </div>
+                    <div class="certificate-content">
+                        <h3 class="certificate-title">DevOps Free Course Certification</h3>
+                        <p class="certificate-description">
+                            Certificate from Intellipaat Academy after completing DevOps course with deep understanding 
+                            of DevOps principles, automation pipelines, and continuous integration.
+                        </p>
+                        <p class="certificate-detail">Provider: Intellipaat Academy</p>
+                        <a href="#" class="btn btn-primary">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+<!-- Contact Section -->
+<section id="contact" class="section contact">
+  <div class="section-container">
+    <div class="section-header">
+      <div class="section-badge">
+        <i class="fas fa-envelope"></i>
+        Get In Touch
       </div>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="section-description">
+        Ready to discuss your next project or explore collaboration opportunities
+      </p>
+    </div>
 
-      <!-- Image with Overlay -->
-      <div class="image-container">
-        <img src="image/farul.jpg" alt="A person taking a selfie in front of a wall with graffiti" />
-        <div class="overlay">
-          <h2>INTRODUCTION</h2>
-          <p>
-            Perkenalkan, saya Farul. Saya memiliki hobi bermain game, basket, dan voli. 
-            Salah satu hobi saya, yaitu bermain game, memotivasi saya untuk menjadi seorang programmer atau developer. 
-            Dulu, saya pernah membuat cheat dalam salah satu game, dan pengalaman itu menginspirasi saya 
-            untuk mulai belajar pemrograman. <br /><br /><b>Simak Lebih Lanjut!</b>
-          </p>
+    <div class="contact-content fade-in">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-phone"></i></div>
+          <div class="contact-details">
+            <h4>Phone</h4>
+            <p>+62822-5766-3431</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <p>syafarul.priwantoro@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="contact-details">
+            <h4>Location</h4>
+            <p>Surabaya, East Java, Indonesia</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-briefcase"></i></div>
+          <div class="contact-details">
+            <h4>Availability</h4>
+            <p>Open for freelance opportunities and full-time positions</p>
+          </div>
         </div>
       </div>
 
-      <!-- Download CV Button -->
-      <div class="download-cv">
-        <a href="image/SyafarulPriwantoro-Magenta.pdf" download="Syafarul_Priwantoro_CV.pdf" class="download-btn">
-          <i class="fas fa-file-pdf"></i> Download CV
-        </a>
-      </div>
+      <!-- Form -->
+      <form class="contact-form" id="contact-form">
+        <div class="form-group">
+          <div class="form-row">
+            <input type="text" class="form-input" placeholder="Your Name" name="name" required>
+            <input type="email" class="form-input" placeholder="Your Email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-row">
+            <input type="tel" class="form-input" placeholder="Phone Number" name="phone">
+            <input type="text" class="form-input" placeholder="Subject" name="subject" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <textarea class="form-textarea" placeholder="Your Message" name="message" required></textarea>
+        </div>
+
+        <!-- Contact Method Selection -->
+        <div class="form-group">
+          <label style="display:block;margin-bottom:1rem;font-weight:600;color:var(--text-primary);">
+            Choose contact method:
+          </label>
+          <div style="display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap;">
+            <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+              <input type="radio" name="contact_method" value="whatsapp" checked style="accent-color:var(--primary-color);">
+              <i class="fab fa-whatsapp"></i> WhatsApp
+            </label>
+            <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+              <input type="radio" name="contact_method" value="email" style="accent-color:var(--primary-color);">
+              <i class="fas fa-envelope"></i> Email Client
+            </label>
+            <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+              <input type="radio" name="contact_method" value="formspree" style="accent-color:var(--primary-color);">
+              <i class="fas fa-paper-plane"></i> Direct Email
+            </label>
+          </div>
+          <div style="background:#f0f8ff;padding:1rem;border-radius:8px;border-left:4px solid var(--primary-color);font-size:0.875rem;margin-top:0.5rem;">
+            <strong>Recommendations:</strong><br>
+            • <strong>WhatsApp:</strong> Fastest response, direct chat<br>
+            • <strong>Email Client:</strong> Opens your email app (Gmail, Outlook)<br>
+            • <strong>Direct Email:</strong> Sends automatically via Formspree service
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
     </div>
   </div>
 </section>
-  
 
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-    <div class="image">
-        <img src="image/kerja1.jpg" >
-    </div>
-    <div class="content">
-        <span>About Me</span>
-        <h3>Hi, I'm Syafarul Priwantoro</h3>
-        <p>Student ID: 1204220018</p>
-        <p>My vision is to continuously grow in the world of technology, with a focus on developing efficient and reliable applications. As a 6th-semester student at Telkom University Surabaya, I specialize in backend development using PHP and Laravel, and I'm also learning to implement DevOps technologies to create scalable and optimized solutions. I'm passionate about building cloud-based applications that provide seamless user experiences. Throughout my career, I am committed to continually learning and enhancing my skills across various technologies, while collaborating with teams to create systems that simplify daily life and improve business efficiency.</p>
-
-    </div>
-</section>
-
-<!-- about section ends -->
-
-<!-- category section starts  -->
-
-<section class="category" id="category">
-    <div class="heading">
-        <h3>Discover My Interests</h3>
-    </div>
-    <div class="box-container">
-        <div class="box">
-            <i class="fas fa-code"></i>
-            <h3>Programming</h3>
-            <p>Saya telah mempelajari berbagai bahasa pemrograman, termasuk PHP, JavaScript (JS), HTML, CSS, dan masih banyak lagi. Sebagai seorang pengembang backend, saya fokus pada penggunaan PHP dan Laravel dalam pembuatan aplikasi yang efisien dan dapat diandalkan. Saya terus mengembangkan keterampilan pemrograman saya dan bersemangat untuk mengeksplorasi lebih jauh dunia coding, termasuk penerapan teknologi DevOps dan cloud computing. Jika Anda tertarik untuk berkolaborasi atau memiliki pertanyaan, jangan ragu untuk menghubungi saya.</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-music"></i>
-            <h3>Music</h3>
-            <p>Selain pemrograman, saya juga memiliki ketertarikan yang mendalam terhadap musik. Saya menikmati berbagai genre musik, mulai dari pop hingga rock, yang memberikan inspirasi dan kreativitas dalam hidup saya. Musik sering kali menjadi sarana bagi saya untuk menyegarkan pikiran, dan saya tertarik untuk mengeksplorasi bagaimana musik dapat digabungkan dengan teknologi. Jika Anda memiliki rekomendasi musik atau ingin berdiskusi tentang musik, saya sangat senang untuk berbicara lebih lanjut.</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-gamepad"></i>
-            <h3>Playing Games</h3>
-            <p>Salah satu hobi saya adalah bermain game, yang memberi saya tantangan untuk memecahkan masalah dan menguji strategi. Saya juga pernah mendalami dunia bug hunting dan mempelajari cara mengidentifikasi dan mengeksploitasi bug dalam game. Meskipun saya tidak melanjutkan hobi ini, saya tertarik pada pemrograman, terutama PHP dengan Laravel, backend development, dan DevOps, yang saya terus pelajari untuk diterapkan dalam berbagai proyek.</p>
-        </div>
-    </div>    
-</section>
-
-<!-- category section ends -->
-<section id="certificate">
-    <div class="container">
-        <h2 class="section-title">Sertifikat Saya</h2>
-        <p class="section-description">Berikut adalah beberapa sertifikat yang telah saya peroleh:</p>
-        
-        <div class="certificate-container">
-            <!-- Sertifikat 1: React Masterclass -->
-            <div class="certificate-card">
-                <img src="image/sertifikatreact.jpg" alt="React Masterclass Sertifikat" class="certificate-image" />
-                <div class="certificate-content">
-                    <h3>React Masterclass untuk Semua</h3>
-                    <p>Sertifikat ini diberikan kepada Syafarul Priwantoro sebagai bukti telah menyelesaikan kursus React Masterclass untuk Semua yang diselenggarakan oleh Udemy.</p>
-                    <p>Durasi: 18,5 jam | Instrukur: Yudi Krisnandi</p>
-                </div>
-            </div>
-
-            <!-- Sertifikat 2: Web Development dengan PHP -->
-            <div class="certificate-card">
-                <img src="image/sertifikatphp.jpg" alt="Web Development PHP Sertifikat" class="certificate-image" />
-                <div class="certificate-content">
-                    <h3>Web Development dengan PHP</h3>
-                    <p>Sertifikat ini menandakan penyelesaian kursus Web Development menggunakan Bahasa Pemrograman PHP dengan durasi pembelajaran 12,5 jam.</p>
-                    <p>Diselenggarakan oleh Udemy - CodePolitan Online.</p>
-                </div>
-            </div>
-
-            <!-- Sertifikat 3: DevOps Free Course Certification -->
-            <div class="certificate-card">
-                <img src="image/sertifikatdevop.png" alt="DevOps Sertifikat" class="certificate-image" />
-                <div class="certificate-content">
-                    <h3>DevOps Free Course Certification</h3>
-                    <p>Sertifikat ini diberikan oleh Intellipaat Academy setelah menyelesaikan kursus DevOps dengan pemahaman mendalam mengenai prinsip-prinsip DevOps, pipeline otomatisasi, dan integrasi berkelanjutan.</p>
-                    <p>Durasi: Tersedia di Intellipaat Academy</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- certificate section ends -->
-
-<!-- portfolio section starts -->
-<section class="portfolio" id="portfolio">
-    <div class="heading">
-        <h3>My Projects</h3>
-    </div>
-
-    <div class="box-container">
-        <!-- Project 1: Coffee VNT Management System -->
-        <div class="box">
-            <img src="image/kasir.gif" alt="Coffee VNT Management System">
-            <div class="content">
-                <h3>Coffee VNT Management System</h3>
-                <p>Aplikasi web untuk mengelola operasional Coffee Shop VNT, mencakup manajemen pengguna, transaksi, dan menu.</p>
-                <a href="https://github.com/farul1/Kasir_CafeVNT" class="btn">View Project</a>
-            </div>
-        </div>
-
-        <!-- Project 2: Wellness Shine -->
-        <div class="box">
-            <img src="image/wellnes.gif" alt="Wellness Shine">
-            <div class="content">
-                <h3>Wellness Shine</h3>
-                <p>Platform berbasis web untuk industri kosmetik, dengan fitur untuk berbagi tips kecantikan dan produk.</p>
-                <a href="https://github.com/farul1/Wellnes_shine" class="btn">View Project</a>
-            </div>
-        </div>
-
-        <!-- Project 3: Ticket Website -->
-        <div class="box">
-            <img src="image/fastline.gif" alt="Ticket Website">
-            <div class="content">
-                <h3>Ticket - Website Pemesanan Tiket</h3>
-                <p>Website pemesanan tiket dengan berbagai fitur seperti manajemen pengguna, transportasi, kategori, dan pemesanan tiket.</p>
-                <a href="https://github.com/farul1/Fastline" class="btn">View Project</a>
-            </div>
-        </div>
-
-        <!-- Project 4: DevOps Pipeline -->
-        <div class="box">
-            <div class="images-container">
-                <img src="image/jenkins_project.png"" alt="DevOps Pipeline 1">
-                <img src="image/jenkins.gif" alt="DevOps Pipeline 2">
-            </div>
-            <div class="content">
-                <h3>DevOps Pipeline</h3>
-                <p>Deskripsi singkat tentang implementasi pipeline DevOps untuk aplikasi backend, mengoptimalkan deployment dan integrasi berkelanjutan.</p>
-                <a href="https://github.com/farul1/Kasir_CafeVNT/blob/main/Jenkinsfile" class="btn">View Project</a>
-            </div>
-        </div>
-        
-        <div class="box">
-            <img src="image/docker.gif" alt="Coffee VNT Docker Implementation">
-            <div class="content">
-                <h3>Coffee VNT Management System - Docker Implementation</h3>
-                <p>Implementasi Docker untuk aplikasi Coffee VNT, yang memungkinkan kemudahan deployment dan pengelolaan dependensi untuk sistem manajemen Coffee Shop.</p>
-                <a href="https://github.com/farul1/Kasir_CafeVNT_Docker" class="btn">View Project</a>
-            </div>
-        </div>
-        
-</section>
-<!-- portfolio section ends -->
-
-
-
-<!-- contact section starts  -->
-
-<section class="contact" id="contact">
-
-    <div class="heading">
-        <span>contact us</span>
-        <h3>get in touch</h3>
-    </div>
-
-    <div class="row">
-
-        <div class="contact-info-container">
-
-            <div class="box">
-                <i class="fas fa-phone"></i>
-                <div class="info">
-                    <h3>phone :</h3>
-                    <p>+62822-5766-3431</p>
-
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-envelope"></i>
-                <div class="info">
-                    <h3>email :</h3>
-                    <p>syafarul.priwantoro@gmail.com</p>
-                </div>
-            </div>
-
-            <div class="box">
-                <i class="fas fa-map"></i>
-                <div class="info">
-                    <h3>address :</h3>
-                    <p>Surabaya, Jawa Timur, Indonesia</p>
-                </div>
-            </div>
-            <div class="share2">
-                <a href="https://www.instagram.com/syafarul__/" class="fab fa-instagram"></a>
-                <a href="https://wa.link/qpd2ab" class="fab fa-whatsapp"></a>
-                <a href="https://www.linkedin.com/in/syafarul-priwantoro" class="fab fa-linkedin"></a>
-                <a href="https://github.com/farul1" class="fab fa-github"></a>
-            </div>
-            
-            
-        </div>
-
-        <form action="">
-            <div class="inputBox">
-                <input type="text" placeholder="name" name="" id="">
-                <input type="email" placeholder="email" name="" id="">
-            </div>
-            <div class="inputBox">
-                <input type="number" placeholder="phone" name="" id="">
-                <input type="text" placeholder="subject" name="" id="">
-            </div>
-            <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="send message" class="btn">
-        </form>
-
-    </div>
-
-</section>
-
-<footer>
-    <p>&copy; 2023 Syafarul Priwantoro. Semua Hak Dilindungi.</p>
+<!-- Footer -->
+<footer class="footer">
+  <div class="section-container">
+    <p>&copy; 2023 Syafarul Priwantoro. All Rights Reserved. Built with ❤️ and modern web technologies.</p>
+  </div>
 </footer>
+
+<script>
+  // Mobile navigation toggle
+  const mobileToggle = document.querySelector('.mobile-toggle');
+  const navLinks = document.querySelector('.nav-links');
+  if (mobileToggle) {
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  }
+
+  // Smooth scrolling
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  });
+
+  // Navbar scroll effect
+  window.addEventListener('scroll', () => {
+    const navbar = document.querySelector('.navbar');
+    if (!navbar) return;
+    if (window.scrollY > 100) {
+      navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+      navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
+    } else {
+      navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+      navbar.style.boxShadow = 'none';
+    }
+  });
+
+  // Fade in animation
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Form submission
+  document.getElementById('contact-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const formData = new FormData(this);
+    const name = formData.get('name');
+    const email = formData.get('email');
+    const phone = formData.get('phone') || 'Not provided';
+    const subject = formData.get('subject');
+    const message = formData.get('message');
+    const contactMethod = formData.get('contact_method');
+
+    if (contactMethod === 'email') {
+      const emailBody = `Name: ${name}%0D%0AEmail: ${email}%0D%0APhone: ${phone}%0D%0A%0D%0AMessage:%0D%0A${message}`;
+      const mailtoLink = `mailto:syafarul.priwantoro@gmail.com?subject=${encodeURIComponent(subject)}&body=${emailBody}`;
+      window.location.href = mailtoLink;
+      alert('📧 Your default email client will open. Please send the prepared email.');
+    } 
+    else if (contactMethod === 'whatsapp') {
+      const whatsappMessage = `Hello! I'm ${name}%0A%0AEmail: ${email}%0APhone: ${phone}%0ASubject: ${subject}%0A%0AMessage: ${message}`;
+      const whatsappURL = `https://wa.me/6282257663431?text=${whatsappMessage}`;
+      window.open(whatsappURL, '_blank');
+      alert('💬 WhatsApp will open with your message prepared. Please send it.');
+    } 
+    else if (contactMethod === 'formspree') {
+      try {
+        const response = await fetch("https://formspree.io/f/mjkewygk", {
+          method: "POST",
+          headers: { 
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+          },
+          body: JSON.stringify({ name, email, phone, subject, message })
+        });
+
+        if (response.ok) {
+          alert('✅ Pesan berhasil terkirim via Formspree! Silakan cek email Anda.');
+          this.reset();
+        } else {
+          alert('❌ Gagal mengirim via Formspree. Coba lagi nanti.');
+        }
+      } catch (err) {
+        alert('⚠️ Terjadi kesalahan koneksi.');
+      }
+    }
+  });
+
+  // Button loading animation
+  document.querySelectorAll('.btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      if (this.type !== 'submit') return;
+      const originalText = this.innerHTML;
+      this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+      this.disabled = true;
+      setTimeout(() => {
+        this.innerHTML = originalText;
+        this.disabled = false;
+      }, 2000);
+    });
+  });
+</script>
+
+
 </body>
 </html>
+                
