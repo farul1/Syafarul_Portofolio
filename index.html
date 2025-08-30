@@ -563,58 +563,63 @@
         </div>
       </div>
 
-      <!-- Form -->
-      <form class="contact-form" id="contact-form" action="https://formspree.io/f/mjkewygk" method="POST">
+<!-- Form -->
+<form class="contact-form" action="https://formspree.io/f/mjkewygk" method="POST">
+  <div class="form-group">
+    <div class="form-row">
+      <input type="text" class="form-input" placeholder="Your Name" name="name" required>
+      <input type="email" class="form-input" placeholder="Your Email" name="email" required>
+    </div>
+  </div>
 
-        <div class="form-group">
-          <div class="form-row">
-            <input type="text" class="form-input" placeholder="Your Name" name="name" required>
-            <input type="email" class="form-input" placeholder="Your Email" name="email" required>
-          </div>
-        </div>
+  <div class="form-group">
+    <div class="form-row">
+      <input type="tel" class="form-input" placeholder="Phone Number" name="phone">
+      <input type="text" class="form-input" placeholder="Subject" name="subject" required>
+    </div>
+  </div>
 
-        <div class="form-group">
-          <div class="form-row">
-            <input type="tel" class="form-input" placeholder="Phone Number" name="phone">
-            <input type="text" class="form-input" placeholder="Subject" name="subject" required>
-          </div>
-        </div>
+  <div class="form-group">
+    <textarea class="form-textarea" placeholder="Your Message" name="message" required></textarea>
+  </div>
 
-        <div class="form-group">
-          <textarea class="form-textarea" placeholder="Your Message" name="message" required></textarea>
-        </div>
+  <!-- Contact Method Selection -->
+  <div class="form-group">
+    <label style="display:block;margin-bottom:1rem;font-weight:600;color:var(--text-primary);">
+      Choose contact method:
+    </label>
+    <div style="display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap;">
+      <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+        <input type="radio" name="contact_method" value="whatsapp" checked style="accent-color:var(--primary-color);">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </label>
+      <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+        <input type="radio" name="contact_method" value="email" style="accent-color:var(--primary-color);">
+        <i class="fas fa-envelope"></i> Email Client
+      </label>
+      <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
+        <input type="radio" name="contact_method" value="formspree" style="accent-color:var(--primary-color);">
+        <i class="fas fa-paper-plane"></i> Direct Email
+      </label>
+    </div>
+    <div style="background:#f0f8ff;padding:1rem;border-radius:8px;border-left:4px solid var(--primary-color);font-size:0.875rem;margin-top:0.5rem;">
+      <strong>Recommendations:</strong><br>
+      • <strong>WhatsApp:</strong> Fastest response, direct chat<br>
+      • <strong>Email Client:</strong> Opens your email app (Gmail, Outlook)<br>
+      • <strong>Direct Email:</strong> Sends automatically via Formspree service
+    </div>
+  </div>
 
-        <!-- Contact Method Selection -->
-        <div class="form-group">
-          <label style="display:block;margin-bottom:1rem;font-weight:600;color:var(--text-primary);">
-            Choose contact method:
-          </label>
-          <div style="display:flex;gap:1rem;margin-bottom:1rem;flex-wrap:wrap;">
-            <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
-              <input type="radio" name="contact_method" value="whatsapp" checked style="accent-color:var(--primary-color);">
-              <i class="fab fa-whatsapp"></i> WhatsApp
-            </label>
-            <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
-              <input type="radio" name="contact_method" value="email" style="accent-color:var(--primary-color);">
-              <i class="fas fa-envelope"></i> Email Client
-            </label>
-            <label style="display:flex;align-items:center;gap:0.5rem;cursor:pointer;">
-              <input type="radio" name="contact_method" value="formspree" style="accent-color:var(--primary-color);">
-              <i class="fas fa-paper-plane"></i> Direct Email
-            </label>
-          </div>
-          <div style="background:#f0f8ff;padding:1rem;border-radius:8px;border-left:4px solid var(--primary-color);font-size:0.875rem;margin-top:0.5rem;">
-            <strong>Recommendations:</strong><br>
-            • <strong>WhatsApp:</strong> Fastest response, direct chat<br>
-            • <strong>Email Client:</strong> Opens your email app (Gmail, Outlook)<br>
-            • <strong>Direct Email:</strong> Sends automatically via Formspree service
-          </div>
-        </div>
+  <!-- Hidden input supaya diarahkan ke halaman sukses -->
+  <input type="hidden" name="_next" value="https://farul1.github.io/Syafarul_Portofolio/thanks.html">
+  <input type="hidden" name="_captcha" value="false">
 
-        <button type="submit" class="btn btn-primary">
-          <i class="fas fa-paper-plane"></i> Send Message
-        </button>
-      </form>
+  <!-- Submit -->
+  <button type="submit" class="btn btn-primary">
+    <i class="fas fa-paper-plane"></i> Send Message
+  </button>
+</form>
+
     </div>
   </div>
 </section>
